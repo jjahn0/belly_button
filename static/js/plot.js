@@ -1,6 +1,6 @@
 function buildPlot() {
     /* data route */
-  var url = "/api/samples";
+  var url = "/api/piePlot";
   Plotly.d3.json(url, function(error, response) {
 
     console.log(response);
